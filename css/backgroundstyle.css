@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+.backvideo{
+	width: 100%;
+    position: absolute;
+	right: 0;
+	top: 5px;
+	bottom: 0;
+	z-index: -1;
+}
+.backgroundmain{
+	background-image: url("../img/work-with-background.jpg");
+	background-attachment: fixed;
+}
+#top{
+	background: black;
+}
+#channel{	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border: 5px solid white;
+	border-radius: 20px;
+	min-height: 600px;
+    background-image: url("../img/events-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#shop{
+	padding-top: 100px;
+	min-height: 600px;
+	padding-bottom: 100px;
+	border-radius: 20px;
+	border: 5px solid white;
+    background-image: url("../img/work-with-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#demo{
+	min-height: 600px;
+	border-radius: 20px;
+	border: 5px solid white;
+    background-image: url( "../img/City-backgrop.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#artists{
+	min-height: 900px;
+	border-radius: 20px;
+	border: 5px solid white;
+    background-image: url( "../img/work-with-background.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#atuss{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 500px;
+    background-image: url("../img/Backdrop-2-1536x1089-1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#atuss2{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 500px;
+    background-image: url( "../img/shutterstock_1089316988-Map-1536x1151-1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#atuss3{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 500px;
+    background-image: url( "../img/Backdrop-2-1536x1089-1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#atuss4{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 500px;
+    background-image: url( "../img/shutterstock_1089316988-Map-1536x1151-1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}
+#atuss5{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 500px;
+    background-image: url( "../img/comingsoon-1280x833.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    box-shadow: rgba(237,237,237,0.00);
+	background-attachment: fixed;
+}

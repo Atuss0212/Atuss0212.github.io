@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.audio{
+	width: 800px;
+	box-shadow: 0 5px 20px white;
+	border-radius: 30px;
+}
+audio::-webkit-media-controls-panel {
+  background-color:rgba(0,0,0,0.80);
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: white;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: white;border-radius: 50%;transition: all 1s;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: white;border-radius: 50%;transition: 0.5s;transform: rotate(360deg) scale(1.2);transition: all 1s;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: white;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: white;	
+}
+audio::-webkit-media-controls-timeline {
+  background-color:white ;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.catle{
+	border-radius: 380px 380px 380px 380px;
+	width: 500px;
+	height: 500px;
+	animation: catle 8s infinite linear;
+}
+@keyframes catle{
+	from{
+		transform: rotate(0)
+	}
+	to{
+		transform: rotate(360deg)
+	}
+}
